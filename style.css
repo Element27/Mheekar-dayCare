@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #dbfdde;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 44px;
+    color: #feb9a5;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+button {
+    background: #feb9a5;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 25px;
+    color: #444;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, .3);
+}
+
+
+/* navbar container */
+
+.header-container {
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 90%; */
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid #feb9a5;
+}
+
+.header-container img {
+    width: 50px;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    padding: 0 30px;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav-links li a {
+    text-decoration: none;
+}
+
+/* her sectio styling */
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.hero-container .hero-text {
+    padding-right: 10%;
+}
+
+.hero-container img {
+    width: 45%;
+}
